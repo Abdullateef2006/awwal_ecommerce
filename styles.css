@@ -450,6 +450,8 @@ footer .social {
 }
 
 footer .logo {
+    width: 70%;
+    height: 10vh;
     margin-bottom: 30px;
 }
 
@@ -506,3 +508,5 @@ footer a:hover {
 body {
     width: 100%;
 }
+
+@media (max-width: 799px) {}
