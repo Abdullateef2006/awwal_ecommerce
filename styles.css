@@ -792,6 +792,18 @@ body {
     footer .copyright {
         text-align: start;
     }
+
+    /* single product */
+    #prodetails {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #prodetails .single-pro-image {
+        width: 100%;
+        margin-right: 0px;
+    }
+
 }
 
 /*shop.hmtl*/
@@ -834,7 +846,7 @@ body {
 
 /*Single Product*/
 #prodetails .single-pro-image {
-    width: 40%;
+    width: 100%;
     margin-right: 50px;
 }
 
@@ -856,7 +868,7 @@ body {
 }
 
 #prodetails .single-pro-details {
-    width: 50%;
+    width: 100%;
     padding-top: 30px;
 }
 

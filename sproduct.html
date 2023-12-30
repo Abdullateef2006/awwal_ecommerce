@@ -63,8 +63,8 @@
     </section>
 
     <section id="product2" class="section-p1">
-        <h2>New Arrivals</h2>
-        <p>Exciting cool designs to keep you rockin' it</p>
+        <h2>Featured Products</h2>
+        <p>Exciting cool designs to keep you rockin' this season</p>
         <div class="pro-container">
             <div class="pro">
                 <img src="img/products/n1.jpg" alt="">
@@ -201,6 +201,24 @@
     <div class="copyright">
         <p>© 2023, Gargi, Riya, Krishna - Winter Internship Project (E-Commerce-Website)</p>
     </div>
+
+    <script>
+        var MainImg = document.getElementById('MainImg');
+        var smallimg = document.getElementsByClassName('small-img');
+
+        smallimg[0].onclick = function () {
+            MainImg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick = function () {
+            MainImg.src = smallimg[1].src;
+        }
+        smallimg[2].onclick = function () {
+            MainImg.src = smallimg[2].src;
+        }
+        smallimg[3].onclick = function () {
+            MainImg.src = smallimg[3].src;
+        }
+    </script>
 
     <script src="script.js"></script>
 </body>
