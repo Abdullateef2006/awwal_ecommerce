@@ -156,7 +156,7 @@ button.normal {
     color: #088178;
 }
 
-/* #feature {
+#feature {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -190,7 +190,7 @@ button.normal {
 #feature .fe-box img {
     height: 100%;
     width: 100%;
-} */
+}
 
 #product1 {
     text-align: center;
@@ -392,7 +392,7 @@ button.normal {
 }
 
 #sm-banner {
-    padding: 20px 40px;
+    padding: 30px 40px;
     gap: 35px;
     display: flex;
     justify-content: space-evenly;
@@ -446,7 +446,7 @@ button.white {
     align-items: flex-start;
     background-image: url("img/banner/b7.jpg");
     min-width: 30%;
-    height: 40vh;
+    height: 30vh;
     background-size: cover;
     background-position: center;
     padding: 20px;
@@ -670,8 +670,17 @@ body {
     }
 
     #product1 .pro {
-        margin: 15px;
+        margin: 25px;
     }
+
+    #product2 .pro-container {
+        justify-content: center;
+    }
+
+    #product2 .pro {
+        margin: 25px;
+    }
+
 
     #banner {
         height: 20vh;
@@ -702,7 +711,123 @@ body {
     }
 
     footer .logo {
+        width: 65%;
         height: 3vh;
     }
 
+}
+
+@media (max-width: 477px) {
+    .section-p1 {
+        padding: 18px;
+    }
+
+    #header {
+        padding: 30px 20px;
+    }
+
+    #header .logo {
+        width: 30%;
+    }
+
+    #hero {
+        padding: 0 20px;
+        background-position: 55%;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+
+    #product1 .pro {
+        width: 100%;
+    }
+
+    #banner {
+        height: 40vh;
+    }
+
+    #sm-banner {
+        padding: 20px 20px;
+    }
+
+    #sm-banner .banner-box {
+        height: 35vh;
+        min-width: 100%;
+    }
+
+    #banner3 {
+        padding: 0 20px;
+    }
+
+    #banner3 .banner-box {
+        width: 100%;
+    }
+
+    #newsletter {
+        padding: 40px 20px;
+    }
+
+    #newsletter .form {
+        width: 100%;
+    }
+
+    footer {
+        display: list-item;
+    }
+
+    footer .social {
+        width: 100%;
+    }
+
+    footer .logo {
+        width: 35%;
+        height: 5vh;
+    }
+
+    footer .copyright {
+        text-align: start;
+    }
+}
+
+/*shop.hmtl*/
+
+#page-header {
+    background-image: url("img/banner/b1.jpg");
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+
+#page-header h2,
+#page-header p {
+    color: white;
+}
+
+#pagination {
+    text-align: center;
+
+}
+
+#pagination a {
+    text-decoration: none;
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 600;
+}
+
+#pagination a i {
+    font-size: 16px;
+    font-weight: 600;
 }
