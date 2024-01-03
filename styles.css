@@ -715,6 +715,10 @@ body {
         height: 3vh;
     }
 
+    section#blog {
+        padding: 100px 20px 0 20px;
+    }
+
 }
 
 @media (max-width: 477px) {
@@ -806,8 +810,9 @@ body {
 
     /*blog page*/
 
-    #blog {
-        padding: 100px 20px 0 20px;
+    section#blog {
+        padding-left: 0px;
+        padding-right: 0px;
     }
 
     #blog .blog-box {
@@ -946,7 +951,7 @@ body {
 }
 
 #blog {
-    padding: 100px 20px 0 20px;
+    padding: 100px 100px 0 100px;
 }
 
 #blog .blog-box {
@@ -962,7 +967,7 @@ body {
 
 #blog img {
     width: 100%;
-    height: 350px;
+    height: 300px;
     object-fit: cover;
 }
 
