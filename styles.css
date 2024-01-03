@@ -921,8 +921,8 @@ body {
     background-image: url("img/banner/b1.jpg");
 }
 
-#page-header h2,
-#page-header p {
+.stayhome h2,
+.stayhome p {
     color: white;
 }
 
@@ -1233,3 +1233,11 @@ body {
 }
 
 /*Cart Page*/
+
+.cart-header {
+    background-image: url("img/banner/cart1.jpg");
+}
+
+.cart-h2 {
+    color: #000000;
+}
