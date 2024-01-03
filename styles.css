@@ -864,7 +864,6 @@ body {
 #prodetails {
     display: flex;
     margin-top: 20px;
-
 }
 
 #prodetails .single-pro-details {
@@ -904,24 +903,38 @@ body {
 }
 
 /*blog.html*/
-#page-header .blog-header {
+.readmore {
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
     background-image: url("img/banner/b19.jpg");
 }
 
+.readmore h2 {
+    color: white;
+}
+
+.readmore p {
+    color: white;
+}
+
 #blog {
-    padding: 150px 150px 0 150px;
+    padding: 100px 100px 0 100px;
 }
 
 #blog .blog-box {
     display: flex;
-    align-items: center;
-    width: 100%;
     position: relative;
-    padding: 90px;
+    padding: 50px;
 }
 
-#blog .blog-img {
-    width: 50%;
+#blog .blog-box .blog-img {
+    width: 100%;
     margin-right: 40px;
 }
 
@@ -931,8 +944,8 @@ body {
     object-fit: cover;
 }
 
-#blog .blog-details {
-    width: 50%;
+#blog .blog-box .blog-details {
+    width: 100%;
 }
 
 #blog .blog-details a {
@@ -964,15 +977,15 @@ body {
 
 #blog .blog-box h1 {
     position: absolute;
-    top: -40px;
-    left: 0;
+    top: 7px;
+    left: 40px;
     font-size: 70px;
     font-weight: 700;
-    color: #c9cbce;
+    color: #c9ccd1;
     z-index: -7;
 }
 
-#blog {
+/* #blog {
     padding: 100px 20px 0 20px;
 }
 
@@ -990,4 +1003,4 @@ body {
 
 #blog .blog-details {
     width: 100%;
-}
+} */
