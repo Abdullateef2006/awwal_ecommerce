@@ -732,6 +732,14 @@ body {
     section#form-details form {
         width: 50%;
     }
+
+    section#cart-add {
+        padding: 40px 40px;
+    }
+
+    .cart-header {
+        background-position: right 30%;
+    }
 }
 
 @media (max-width: 477px) {
@@ -902,6 +910,28 @@ body {
     section#form-details {
         padding: 0;
     }
+
+    /*Cart Page*/
+
+    .cart-header {
+        background-position: right;
+    }
+
+    section#cart-add {
+
+        flex-direction: column;
+    }
+
+    section#cart-add #coupon {
+        width: 100%;
+    }
+
+    section#cart-add #subtotal {
+        width: 100%;
+        padding: 0;
+        border: none;
+    }
+
 }
 
 /*shop.hmtl*/
@@ -1124,6 +1154,11 @@ body {
     background-image: url("img/about/banner.png");
 }
 
+.contact-header h2,
+.contact-header p {
+    color: white;
+}
+
 #contact-details {
     display: flex;
     align-items: center;
@@ -1233,13 +1268,20 @@ body {
 }
 
 /*Cart Page*/
+#cart {
+    overflow-x: auto;
+}
 
 .cart-header {
     background-image: url("img/banner/cart1.jpg");
 }
 
-.cart-h2 {
+.cart-header h2 {
     color: #000000;
+}
+
+.cart-header p {
+    color: #ffffff;
 }
 
 #cart table {
@@ -1298,5 +1340,56 @@ body {
 }
 
 #cart table tbody td {
+    font-size: 13px;
+}
+
+#cart-add {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#coupon {
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+#coupon h3,
+#subtotal h3 {
+    padding-bottom: 15px;
+}
+
+#coupon input {
+    width: 60%;
+    outline: none;
+    margin-right: 10px;
+    border: 1px solid #999d98;
+    padding: 10px 20px;
+}
+
+#coupon button,
+#subtotal button {
+    background-color: #088178;
+    color: white;
+    padding: 12px 20px;
+}
+
+#subtotal {
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1px solid #e2e9e1;
+    padding: 30px;
+}
+
+#subtotal table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#subtotal table td {
+    width: 50%;
+    border: 1px solid #a69f9f;
+    padding: 10px;
     font-size: 13px;
 }
